@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.hero{
+    position: relative;
+}
+.hero__nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.hero__logo{
+    color: #03f;
+}
+.hero__links{
+    list-style: none;
+    display: flex;
+    
+}
+.hero__links a{
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #bbb;
+}
+.hero__buton{
+    border: none;
+    color: #fff;
+    background-color:#03f;
+    border-radius: 4px;
+}
