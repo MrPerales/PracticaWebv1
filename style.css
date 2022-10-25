@@ -39,7 +39,7 @@
     border-radius: 4px;
 }
 .hero__main{
-    outline: 1px solid red;
+    
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -54,7 +54,7 @@
     width: 100%;
 }
 .section-txt{
-    outline: 1px solid red;
+    
     width: 50%;
     padding:10px 50px;
     margin:10px 20px;
@@ -161,13 +161,12 @@
     max-width: 200px;
 
 }
-.section{
+.section__1{
     display: flex;
     justify-items: left;
-    padding: 10px;
-    outline: 1px solid red;
+    padding: 30px;
     width: 50%;
-    margin:15px 20px;
+    margin:15px 40px;
 }
 .titule{
     font-size: 26px;
@@ -178,4 +177,27 @@
     width: 65%;
     padding: 10px;
     margin: 5px;
+}
+.section__bloques{
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.bloque-item{
+    margin: 15px;
+    border: 2px solid #eee;
+    height: 250px;
+    width: 230px;
+    padding: 20px;
+}
+.subtitulo-bloques{
+    width: 80%;
+    font-size: 20px;
+    padding: 15px 0;
+
+}
+.parrafo-bloques{
+    padding: 5px 0;
+    font-size: 14px;
 }
