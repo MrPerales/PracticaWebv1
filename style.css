@@ -57,6 +57,7 @@
 .section__figure{
     height: 650px;
     background-color:#059;
+    margin-top: auto;
 }
 .img{
     width: 100%;
@@ -315,6 +316,21 @@
     padding: 20px;
     display: flex;
 }
+.emergency-txt{
+    
+    padding: 15px;
+    margin: 10px;
+}
+.emergency-titule{
+    font-size: 32px;
+    color: #009;
+    padding: 10px;
+}
+.emergency-parrafo{
+    padding:15px 10px;
+    color: #777;
+    font-size: 16px;
+}
 .emergency-box{
     
     margin: 20px;
@@ -323,13 +339,16 @@
     align-content: center;
 }
 .emergecy-contact{
-    outline: 1px solid red;
+    margin-top: 25px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px;
     gap: 15px;
     
+}
+.section__3-figure{
+    margin-top:auto;
 }
 .contact-item{
     width: 45%;
@@ -351,6 +370,34 @@
     font-size: 8px;
     padding:0 20px;
 
+}
+.phone::before{
+    content: "call";
+    position: relative;
+    left: 50px;
+    top:20px;
+    font-size: 20px;
+}
+.message::before{
+   content: "message";
+   position: relative;
+   left: 50px;
+   top:20px;
+   font-size: 20px;
+}
+.video::before{
+   content: "video";
+   position: relative;
+   left: 50px;
+   top:20px;
+   font-size: 20px;
+}
+.mail::before{
+   content: "mail";
+   position: relative;
+   left: 50px;
+   top:20px;
+   font-size: 20px;
 }
 .cta-contact{
     border: none;
