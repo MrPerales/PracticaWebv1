@@ -38,3 +38,144 @@
     background-color:#03f;
     border-radius: 4px;
 }
+.hero__main{
+    outline: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    gap: 100px;
+}
+.section__figure{
+    background-color:#059;
+}
+.img{
+    width: 100%;
+}
+.section-txt{
+    outline: 1px solid red;
+    width: 50%;
+    padding:10px 50px;
+    margin:10px 20px;
+}
+.section-txt p{
+    padding: 10px;
+    width: 80%;
+    text-align: justify;
+}
+.section-txt h2{
+    color: #009;
+    font-size: 50px;
+    padding: 20px;
+    margin: 10px;
+}
+.div__clock{
+    margin-top: 120px;
+}
+.section-icon{
+    display: flex;
+    margin:45px 0;
+    justify-content: space-between;
+    gap: 10px;
+}
+.section-icon a{
+    padding: 0 5px;
+}
+.fa-shield::after{
+    content: "best protection";
+    font-size: 10px;
+    padding: 5px;
+    color: #03f;
+}
+.fa-star::after{
+    content: "selected vaccines";
+    font-size: 10px;
+    padding: 5px;
+    color: #03f;
+}
+.schedule-box{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+    left: 100px;
+    z-index: 10;
+    background-color: #fff;
+    padding: 20px;
+   /* gap: 20px;------------------------------------------------*/
+}
+.cta{
+    color: #fff;
+    background-color: #03f;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+
+}
+.fa-clock::after{
+    content: "schedule your vacination";
+    font-size: 10px;
+    padding: 14px;
+    color: #03f;
+
+}
+.fa-location-dot::after{
+    content: "location";
+    padding: 10px;
+    font-size: 10px;
+    color:#bbb;
+}
+.fa-calendar-days::after{
+    content: "Date";
+    padding: 10px;
+    font-size: 10px;
+    color:#bbb;
+}
+.fa-pencil::after{
+    content: "Vacine type";
+    padding: 10px;
+    font-size: 10px;
+    color:#bbb;
+}
+.schedule-dato{
+    padding:15px 20px;
+    font-size: 18px;
+    color: #03f;
+}
+.div__logos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    
+}
+.logos-item{
+    filter: grayscale(90%) opacity(0.3);
+    
+}
+.img-log{
+    width: 100%;
+    max-width: 200px;
+
+}
+.section{
+    display: flex;
+    justify-items: left;
+    padding: 10px;
+    outline: 1px solid red;
+    width: 50%;
+    margin:15px 20px;
+}
+.titule{
+    font-size: 26px;
+    color: #036;
+    padding: 15px;
+}
+.parrafo{
+    width: 65%;
+    padding: 10px;
+    margin: 5px;
+}
