@@ -10,13 +10,17 @@
 }
 .hero{
     position: relative;
+    
 }
 .hero__nav{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 20px;
     padding: 10px;
+    background-color: rgba(240,240,240,.95);
+    z-index: 10;
+    position: fixed;
+    
 }
 .hero__logo{
     color: #03f;
@@ -57,7 +61,7 @@
 .section__figure{
     height: 650px;
     background-color:#059;
-    margin-top: auto;
+    margin-top:auto;
 }
 .img{
     width: 100%;
@@ -113,6 +117,7 @@
     padding: 20px;
     border-radius: 5px;
     border: 1px solid #eee;
+    align-items: center;
    /* gap: 20px;------------------------------------------------*/
 }
 .cta{
@@ -205,16 +210,19 @@
     height: 250px;
     width: 20%;
     padding: 20px;
+    border-radius:5px;
+    
 }
 .subtitulo-bloques{
     width: 80%;
     font-size: 20px;
     padding: 15px 0;
-
+    
 }
 .parrafo-bloques{
     padding: 5px 0;
     font-size: 14px;
+    
 }
 
 .section__2{
@@ -316,6 +324,9 @@
     padding: 20px;
     display: flex;
 }
+.section__3-figure{
+   /* background-color: #059;*/
+}
 .emergency-txt{
     
     padding: 15px;
@@ -357,10 +368,11 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #eee;
-
+    border-radius: 5px;
 }
 .contact-item i{
     padding: 10px;
+    
 }
 .icon-num{
     font-size: 22px;
@@ -407,4 +419,46 @@
     color: #00f;
     background-color: #8af;
 }
+footer{
+    background-color: #8af;
+}
+.vaccination{
+    width: 15%;
+}
+.vaccination_titule{
+    font-size: 22px;
+    padding: 20px 0;
+}
 
+.section__footer{
+    background-color: #8af;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px;
+}
+.div__about{
+    display: flex;
+    gap: 60px;
+    
+}
+.about-lista{
+    list-style: none;
+    margin-right: 50px;
+}
+.about-lista li{
+    padding: 10px 0;
+}
+.about-lista a{
+    text-decoration: none;
+}
+
+.about-titule{
+    padding: 15px 0;
+    font-size: 18px;
+}
+.section__footer2{
+    display: flex;
+    justify-content: space-between;
+    
+}
