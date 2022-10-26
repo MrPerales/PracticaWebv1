@@ -8,16 +8,14 @@
     margin: 0 auto;
     overflow: hidden;
 }
-.hero{
-    position: relative;
-    
-}
+
 .hero__nav{
     display: flex;
     justify-content: space-between;
     gap: 50px;
     padding: 10px;
-    background-color: rgba(240,240,240,.95);
+    background-color: rgba(255,255,255,.95);
+
     z-index: 10;
     position: fixed;
     
@@ -50,13 +48,13 @@
     padding: 10px 25px;
 }
 .hero__main{
-    
+    position: relative;
     display: flex;
     justify-content: space-between;
     text-align: left;
     margin: 20px;
     padding: 20px;
-    gap: 100px;
+    /*gap: 100px;*/
 }
 .section__figure{
     height: 650px;
@@ -111,6 +109,7 @@
     display: flex;
     justify-content: space-between;
     width: 70%;
+    max-width: 1200px;
     margin-top: 30px;
     left: 100px;
     background-color: #fff;
